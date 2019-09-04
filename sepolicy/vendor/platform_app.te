@@ -20,3 +20,7 @@ allow platform_app vendor_file:file { getattr open read };
 allow platform_app time_daemon:file { read };
 allow platform_app system_file:file { read };
 allow platform_app system_file:file { getattr };
+allow platform_app app_data_file:file execute;
+allow platform_app sysfs:dir read;
+allow platform_app sysfs_switch:dir search;
+
