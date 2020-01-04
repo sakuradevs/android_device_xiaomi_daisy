@@ -90,6 +90,10 @@ vendor.camera.aux.packagelist2=com.android.systemui,com.huaqin.cameraautotest,co
 vendor.camera.hal1.packagelist=com.skype.raider,com.google.android.talk \
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.huaqin.factory,com.mi.AutoTest
 
+# DPM
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.vendor.dpm.feature=0
+
 # Cne
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.cne.feature=1
@@ -138,10 +142,6 @@ vendor.display.enable_default_color_mode=1 \
 vendor.display.disable_skip_validate=1 \
 vendor.gralloc.enable_fb_ubwc=1 \
 persist.vendor.max.brightness=475
-
-# DPM
-PRODUCT_PROPERTY_OVERRIDES += \
-persist.dpm.feature=1
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
