@@ -51,7 +51,6 @@ BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_SOURCE := kernel/xiaomi/daisy
 TARGET_KERNEL_VERSION := 4.9
-TARGET_KERNEL_CLANG_COMPILE := true
 
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
@@ -186,9 +185,7 @@ TARGET_PER_MGR_ENABLED := true
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wakeup_gesture"
-
-# SurfaceFlinger
-TARGET_USE_AOSP_SURFACEFLINGER := true
+TARGET_USES_NON_LEGACY_POWERHAL := true
 
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
@@ -242,7 +239,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/daisy/BoardConfigVendor.mk
--include vendor/xiaomi/msm8953-common/BoardConfigVendor.mk
 
 # OTA Assert
 TARGET_OTA_ASSERT_DEVICE := daisy

@@ -150,8 +150,7 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service \
-    Snap
+    android.hardware.camera.provider@2.4-service
 
 # Consumerir
 PRODUCT_PACKAGES += \
@@ -243,7 +242,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml
-	
+
 # init.d support
 PRODUCT_PACKAGES += \
     sysinit
@@ -365,15 +364,7 @@ PRODUCT_PACKAGES += \
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
-	
-#Resetprop (thx to phhusson)
-PRODUCT_PACKAGES += \
-    resetprop \
-	cts_pass.sh
-	
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/cts_pass.rc:system/etc/init/cts_pass.rc
-	
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
