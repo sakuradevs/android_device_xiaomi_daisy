@@ -351,3 +351,7 @@ sys.vendor.shutdown.waittime=500 \
 vendor.audio.dolby.ds2.enabled=false \
 vendor.audio.dolby.ds2.hardbypass=false \
 vendor.audio.offload.passthrough=false
+
+#Dolby Plus
+PRODUCT_PROPERTY_OVERRIDES += \
+sys.keep_app_1=com.dolby.ds1appUI
