@@ -1,1 +1,0 @@
-allow magisk system_file:file { ioctl };
