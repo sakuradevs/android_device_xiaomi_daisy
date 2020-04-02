@@ -1,0 +1,31 @@
+[
+  {
+    "remote": "lineage",
+    "repository" : "android_hardware_qcom_display",
+    "target_path": "hardware/qcom/display/msm8996",
+    "branch": "lineage-17.1-caf-msm8996"
+  },
+  {
+    "remote": "lineage",
+    "repository" : "android_hardware_qcom_media",
+    "target_path": "hardware/qcom/media/msm8996",
+    "branch": "lineage-17.1-caf-msm8996"
+  },
+  {
+    "remote": "lineage",
+    "repository" : "android_hardware_qcom_audio",
+    "target_path": "hardware/qcom/media/msm8996",
+    "branch": "lineage-17.1-caf-msm8996"
+  },
+  {
+    "remote": "lineage",
+    "repository" : "android_external_ant-wireless_antradio-library",
+    "target_path": "external/ant-wireless/antradio-library",
+    "branch": "lineage-17.1"
+  },
+  {
+    "repository" : "vitor00almei/proprietary_vendor_qcom_common",
+    "target_path": "vendor/qcom/common",
+    "branch": "quartz"
+    "remote": "github"
+  }

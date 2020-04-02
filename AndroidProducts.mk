@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_daisy.mk
+    $(LOCAL_DIR)/cos_daisy.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_daisy-user \
-    aosp_daisy-userdebug \
-    aosp_daisy-eng
+    cos_daisy-user \
+    cos_daisy-userdebug \
+    cos_daisy-eng

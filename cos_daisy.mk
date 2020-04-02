@@ -18,18 +18,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from MiuiCamera
-$(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
-
 # Inherit from daisy device
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
 # Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/cos/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
-PRODUCT_NAME := aosp_daisy
+PRODUCT_NAME := cos_daisy
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A2 Lite
@@ -42,6 +39,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="daisy" \
     PRODUCT_NAME="daisy_sprout"
 
-TARGET_BOOT_ANIMATION_RES := 2280
-
-TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
