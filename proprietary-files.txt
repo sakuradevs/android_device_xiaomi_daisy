@@ -3046,21 +3046,11 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|4b884ee86bd3796bf36ec47ceb8a7c5
 # USB firmware - from Daisy QKQ1.191002.002 V11.0.2.0.QDLMIXM
 etc/firmware/ice40.bin|a29bdcdbfda7f7dae24a3c8921abe2bcda6ae38e
 
-# Wi-Fi - from sakura
-lib64/libwifikeystorehalext.so
-lib64/vendor.qti.hardware.wifi.hostapd@1.0.so
-lib64/vendor.qti.hardware.wifi.keystore@1.0.so
-lib64/vendor.qti.hardware.wifi.supplicant@2.0.so
-vendor/bin/cnss-daemon
-vendor/bin/cnss_diag
-vendor/bin/wcnss_service
-vendor/lib/vendor.qti.hardware.wifi.hostapd@1.0.so
-vendor/lib/vendor.qti.hardware.wifi.keystore@1.0.so
-vendor/lib/vendor.qti.hardware.wifi.supplicant@2.0.so
-vendor/lib64/libwifi-hal-qcom.so
-vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so
-vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so
-vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so
+# Wi-Fi - from Daisy QKQ1.191002.002 V11.0.2.0.QDLMIXM
+lib64/libwifikeystorehalext.so|885f2bc17aa3ef71d9138ad2f2b9af3d92623dbd
+vendor/bin/cnss-daemon|e835ea5247a480754309b8c1bb267f5cca2e3a11
+vendor/bin/cnss_diag|9189ce1bf89ad9af71efd5f265a7cbadb0d7bcfb
+vendor/bin/wcnss_service|1a7da5ec11248ea69af665d711a846e4cc7c95be
 
 # Wi-Fi Display - from LA.UM.8.6.r1-01900-89xx.0
 bin/wfdservice|d9cccfd6ca14a1d83117533296d6cac2c139c310
