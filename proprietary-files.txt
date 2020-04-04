@@ -2501,6 +2501,16 @@ vendor/bin/hw/android.hardware.drm@1.2-service.widevine|b626d9bbf7043c66c8ef903c
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|e3cb732c0bd519988100675edf385d947abf5f6c
 vendor/lib64/libwvhidl.so|f7c13ba3323b5b4363e013d4f2fd8c979b695c7c
 
+# ESE-Powermanager - from Daisy QKQ1.191002.002 V11.0.2.0.QDLMIXM
+product/lib/vendor.qti.esepowermanager@1.0.so|07b5def050ef3200ed8946bf33be4f60049cd4aa
+product/lib64/vendor.qti.esepowermanager@1.0.so|165a6b6f6fec38055a178d2d5903de5756a44571
+vendor/bin/hw/vendor.qti.esepowermanager@1.0-service|13a4b84845fafa35539ed5880c8ff311d12ed2f2
+vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc|58a3866ad5a7613d9392c9adb671eaa7825578a2
+vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so|0eea86e1ddf627b29dbd5ab31bcf64c494cc45dd
+vendor/lib/vendor.qti.esepowermanager@1.0.so|07b5def050ef3200ed8946bf33be4f60049cd4aa
+vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so|c96a5e5fad2c656a991b42b1a6354c4b654810fc
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|165a6b6f6fec38055a178d2d5903de5756a44571
+
 # Fingerprint - from Daisy QKQ1.191002.002 V11.0.2.0.QDLMIXM
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk|47d6458be8aece1ad609371baa09a1516564b755
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|866b83e0dce24cd3dd7d8a6ef6fec5bd02de499f
