@@ -18,9 +18,6 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from MiuiCamera
-$(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
-
 # Inherit from daisy device
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
@@ -42,6 +39,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="daisy" \
     PRODUCT_NAME="daisy_sprout"
 
-TARGET_BOOT_ANIMATION_RES := 2280
+TARGET_BOOT_ANIMATION_RES := 1080
 
 TARGET_GAPPS_ARCH := arm64
