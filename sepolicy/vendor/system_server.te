@@ -30,3 +30,6 @@ allow system_server vendor_file:file { getattr open read };
 
 allow system_server adb_data_file:file { getattr open read };
 allow system_server persist_camera_prop:file { getattr };
+allow system_server persist_camera_prop:file { read };
+allow system_server persist_camera_prop:file { open };
+allow system_server zygote:process { getpgid };
