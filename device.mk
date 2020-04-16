@@ -354,7 +354,7 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service-qti \
+    android.hardware.power@1.2-service \
     android.hardware.power.stats@1.0-service.mock
 
 PRODUCT_COPY_FILES += \
