@@ -199,6 +199,7 @@ VENDOR_SECURITY_PATCH := 2020-01-01
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
+TARGET_EXCLUDE_QCOM_SEPOLICY := true
 
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
@@ -211,7 +212,7 @@ BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
 
 # We modify several neverallows, so let the build proceed
-# SELINUX_IGNORE_NEVERALLOWS := true
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
