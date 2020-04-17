@@ -1,5 +1,5 @@
 #
-# system.prop for daisy
+# system.prop for sakura
 #
 # ART
 PRODUCT_PROPERTY_OVERRIDES += \

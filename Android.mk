@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifeq ($(TARGET_DEVICE),daisy)
+ifeq ($(TARGET_DEVICE),sakura)
 
 include $(call all-subdir-makefiles)
 

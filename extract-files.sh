@@ -7,7 +7,7 @@
 
 set -e
 
-DEVICE=daisy
+DEVICE=sakura
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
